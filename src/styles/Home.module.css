@@ -1,0 +1,24 @@
+body { 
+  
+  background: radial-gradient(circle at 50% 0%, #1a1511 0%, #000000 80%) !important; 
+  color: #d1cdc0; 
+  margin: 0; 
+  font-family: 'serif', sans-serif; 
+}
+
+.containerPrincipal {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  height: calc(100vh - 120px);
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.secaoLista { width: 35%; height: 100%; display: flex; flex-direction: column; }
+.grid { flex: 1; overflow-y: auto; padding-right: 10px; display: flex; flex-direction: column; }
+.grid::-webkit-scrollbar { width: 6px; }
+.grid::-webkit-scrollbar-thumb { background-color: #4a3728; border-radius: 4px; }
+
+.secaoDetalhes { width: 65%; height: 100%; }
